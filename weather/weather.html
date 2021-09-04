@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+        <title>Weather Warlock</title>
+        <link rel="shortcut icon" type="image/jpg" href="favi.png"/>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="weather.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    </head>
+    <body class="body">
+        <div class="total">
+            <div ><img src="test.jpg" width="120" height="100" class="mark" ></div>
+            <div class="head"><p class="name">Weather Warlock</p></div>
+        </div>
+        <br>
+            <p class="msg"> Behold the Weather Warlock!<br> The All Knowing! Ask him and Wisdom you shall recieve</p>
+        <div class="container">
+        <br>
+            <form class="location">
+                <label for="place"> Enter the location to know its weather</label><br>
+                <input type="text" name="place" autocomplete="off">
+            </form>
+        </div>
+            <div class="card">
+                <img src="" class="time" id="HideImg" onerror="hideImg()">
+                <div class="icon">
+                <img src="" class="icon" id="HideImg" onerror="hideImg()">
+                </div>
+                <div class="details">
+                    <h4>The <br>Weather <br> Warlock's <br> Magical<br> Card<br> Of<br> Destiny</h4>
+                    <div class="h"><img src="wizz.png" height="155"></div>
+                    <div class=" "> 
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <a class="active" href="../index.html">Home</a>
+            <a href="weather.html">Check Weather</a>
+            <a href="../about/about.html">About US</a>
+            </div>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+    
+    </body>
+</html>
