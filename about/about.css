@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    color: #F3F2C9;
+    text-shadow: 0 0 6px #000000, 0 0 6px #000000;
+}
+body{
+    background-color: #022324;
+}
+.head{
+    margin-left: 3cm;
+}
+.team {
+    float: left;
+    text-align: center;
+    margin-top: 0.5%;
+    text-decoration: none;
+    font-size: 17px;
+    letter-spacing: 2px;
+    font-family: fantasy;
+    font-size: 0.7cm;
+}
+.btn{
+    display: inline;
+    align-items: center;
+}
+.total{
+    display: flex;
+    height: 3cm;
+    width: 100;
+    grid-template-columns: 4cm 30cm;
+    margin-left: 1cm;
+}
+.mark{
+    border-radius: 50%;
+    margin-left: 2cm;
+    margin-top: 0.3cm;
+    border: 5px solid #F3F2C9;
+}
+.name{
+    margin-top: 5px;
+    font-size: 80px;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 0 0 6px #000000, 0 0 6px #000000;
+    letter-spacing: 0.2cm;
+}
+.team{
+    margin-left: 1cm;
+}
+.about{
+    margin-top: 2cm;
+    display: grid;
+    grid-template-columns: 10cm 10cm 10cm;
+    height: 10cm;
+    grid-gap: 2cm;
+    margin-left: 3cm;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.container{
+    margin-left: 3cm;
+}
+
+  
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 20px;
+}
+  
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+    border-radius: 20px;
+}
+  
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 20px;
+}
+  
+.flip-card-front {
+    background-color: #1b6568;
+    color: black;
+    border-radius: 20px;
+}
+  
+.flip-card-back {
+    background-color: #1b6568;
+    transform: rotateY(180deg);
+    border-radius: 20px;
+}
+.nam{
+    font-size: 1cm;
+}
+h1{
+    margin-top: 1cm;
+    font-size: 1.3cm;
+}
+p{
+    font-size: 0.7cm;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.footer {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    height: 1.3cm;
+    margin-top: 5.5%;
+}
+.footer a {
+    margin-left: 2cm;
+    color: #F3F2C9;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 40px;
+    letter-spacing: 0.2cm;
+}
+.footer a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.space{
+    margin-left: 3.3cm;
+}
