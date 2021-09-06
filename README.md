@@ -1,4 +1,4 @@
-Presenting to you Weather Warlock Website that allows you to get real time weather updates of any website across the globe instantly
+Presenting to you Weather Warlock, a desktop website that allows you to get real time weather updates of any website across the globe instantly
 Use this link to access our website:- " https://weather-warlock.web.app/ ".
 Landing Page:-
 ![1](https://user-images.githubusercontent.com/85413348/132110755-7a054ff7-61ae-4014-9025-cae39327f2f3.jpg)
